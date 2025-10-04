@@ -6,7 +6,8 @@
   "author": "墨七",
   "type": "module",
   "scripts": {
-    "git-sync": "bun run script/git_sync.ts"
+    "git-sync": "bun run script/git_sync.ts",
+    "clear-dir": "bun run script/clear_dir.ts"
   },
   "devDependencies": {
     "@types/bun": "^1.2.23",
