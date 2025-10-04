@@ -1,0 +1,15 @@
+# 统一行尾为 LF
+* text eol=lf
+
+# 二进制文件
+*.png binary
+*.svg binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.gz binary
+
+# 文档文件 diff
+*.md diff=markdown
+*.json diff=json

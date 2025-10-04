@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "lone-star-engineer",
+  "version": "0.1.0",
+  "description": "《孤星工程师》",
+  "author": "墨七",
+  "type": "module",
+  "scripts": {
+    "git-sync": "bun run script/git_sync.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.23",
+    "prettier": "^3.6.2"
+  }
+}
