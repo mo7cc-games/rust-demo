@@ -29,3 +29,17 @@ cargo watch -x test
 cargo watch -x "build --release"
 
 ```
+
+## 本项目额外的工作
+
+```bash
+# 开启 json 格式化
+bun install
+
+# 清理目录
+npm run clean-dir
+
+# 同步当前分支到远端
+npm run git-sync
+
+```
