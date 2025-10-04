@@ -1,6 +1,10 @@
+use ferris_says::say;
+use std::io::{BufWriter, stdout};
+
 fn main() {
-    println!("Hello, world! 111");
-    // 命令行会立马退出
-    std::thread::sleep(std::time::Duration::from_secs(10));
+    let out = "Hello fellow 墨七!";
+    let width = 24;
+
+    let mut writer = BufWriter::new(stdout());
+    say(out, width, &mut writer).unwrap();
 }
-// 运行 cargo run --example hello_world
