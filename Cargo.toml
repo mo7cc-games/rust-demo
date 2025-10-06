@@ -5,3 +5,63 @@ edition = "2024"
 
 [dependencies]
 ferris-says = "0.3.2"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "01_variables_and_data_types"
+path = "src/01_variables_and_data_types.rs"
+
+[[bin]]
+name = "02_functions"
+path = "src/02_functions.rs"
+
+[[bin]]
+name = "03_control_flow"
+path = "src/03_control_flow.rs"
+
+[[bin]]
+name = "04_ownership"
+path = "src/04_ownership.rs"
+
+[[bin]]
+name = "05_structs"
+path = "src/05_structs.rs"
+
+[[bin]]
+name = "06_enums_and_pattern_matching"
+path = "src/06_enums_and_pattern_matching.rs"
+
+[[bin]]
+name = "07_collections"
+path = "src/07_collections.rs"
+
+[[bin]]
+name = "08_packages_and_modules"
+path = "src/08_packages_and_modules.rs"
+
+[[bin]]
+name = "09_error_handling"
+path = "src/09_error_handling.rs"
+
+[[bin]]
+name = "10_generics"
+path = "src/10_generics.rs"
+
+[[bin]]
+name = "11_traits"
+path = "src/11_traits.rs"
+
+[[bin]]
+name = "12_lifetimes"
+path = "src/12_lifetimes.rs"
+
+[[bin]]
+name = "13_advanced_features"
+path = "src/13_advanced_features.rs"
+
+[[bin]]
+name = "run_examples"
+path = "src/run_examples.rs"
