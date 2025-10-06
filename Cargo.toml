@@ -11,57 +11,49 @@ name = "main"
 path = "src/main.rs"
 
 [[bin]]
-name = "01_variables_and_data_types"
-path = "src/01_variables_and_data_types.rs"
+name = "01_variables_and_types"
+path = "src/bin/01_variables_and_types.rs"
 
 [[bin]]
 name = "02_functions"
-path = "src/02_functions.rs"
+path = "src/bin/02_functions.rs"
 
 [[bin]]
 name = "03_control_flow"
-path = "src/03_control_flow.rs"
+path = "src/bin/03_control_flow.rs"
 
 [[bin]]
 name = "04_ownership"
-path = "src/04_ownership.rs"
+path = "src/bin/04_ownership.rs"
 
 [[bin]]
 name = "05_structs"
-path = "src/05_structs.rs"
+path = "src/bin/05_structs.rs"
 
 [[bin]]
-name = "06_enums_and_pattern_matching"
-path = "src/06_enums_and_pattern_matching.rs"
+name = "06_enums_pattern_matching"
+path = "src/bin/06_enums_pattern_matching.rs"
 
 [[bin]]
 name = "07_collections"
-path = "src/07_collections.rs"
+path = "src/bin/07_collections.rs"
 
 [[bin]]
 name = "08_packages_and_modules"
-path = "src/08_packages_and_modules.rs"
+path = "src/bin/08_packages_and_modules.rs"
 
 [[bin]]
 name = "09_error_handling"
-path = "src/09_error_handling.rs"
+path = "src/bin/09_error_handling.rs"
 
 [[bin]]
 name = "10_generics"
-path = "src/10_generics.rs"
+path = "src/bin/10_generics.rs"
 
 [[bin]]
 name = "11_traits"
-path = "src/11_traits.rs"
+path = "src/bin/11_traits.rs"
 
 [[bin]]
 name = "12_lifetimes"
-path = "src/12_lifetimes.rs"
-
-[[bin]]
-name = "13_advanced_features"
-path = "src/13_advanced_features.rs"
-
-[[bin]]
-name = "run_examples"
-path = "src/run_examples.rs"
+path = "src/bin/12_lifetimes.rs"
